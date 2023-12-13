@@ -130,6 +130,9 @@ a{
     opacity: 70%;
 
 }
+.experience img:hover{
+    transform: translateY(-10px);
+}
 .footer p{
     margin-left: 50px;
     margin-right: 50px;
