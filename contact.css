@@ -1,0 +1,32 @@
+.contact-menu{
+    width: 400px;
+    background-color: rgb(65, 65, 65);
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+    border: 5px solid rgb(152, 152, 152);
+    margin-top: 50px;
+    transition: transform 0.5s;
+}
+.contact-menu:hover{
+    transform: translateY(-10px)
+}
+.contact-row{
+    margin-left: 25px;
+    color: white;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-row a{
+    color: azure;
+}
+.contact-column{
+    padding-top: 12px;
+    width: 52px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-right: 30px;
+}
