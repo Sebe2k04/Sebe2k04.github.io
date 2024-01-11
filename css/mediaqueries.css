@@ -1,0 +1,151 @@
+@media only screen and (min-width: 901px)
+{
+    .intro{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .about-content,
+    .skills-content,
+    .projects-content,
+    .exp-content
+    {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .about .img{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+    .experience .img{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+    .project{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .project img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        border-radius: 10px;
+    }
+
+}
+@media only screen and (max-width: 900px) 
+{
+    
+    .intro{
+        display: block;
+        
+    }
+    .intro .img{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+    .profile{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #profile_abstract{
+        text-align: justify;
+    }
+    .about{
+        display: block;
+    }
+    .about .img{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+    .about-content, .skills-content, .exp-content{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .projects-content p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .experience .img{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+    .project{
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .project img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        border-radius: 10px;
+    }
+
+    
+
+}
+@media only screen and (max-width: 500px)
+{
+    .profile-btn{
+        display: block;
+        justify-content: center;
+        padding: 20px;
+    }
+    .profile-btn1{
+        margin-left: 30px;
+    }
+    .profile-btn2{
+        padding: 20px;
+    }
+    .profile{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .about-content, .skills-content, .exp-content{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .projects-content p{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .experience img{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+    }
+    .project{
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+    .project img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        border-radius: 10px;
+    }
+}
+
+
